@@ -10,8 +10,14 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  // your config
-})
+  apiKey: "AIzaSyDBWlPvc8TSFsftAwSzSef7X7aLA-xfZRk",
+  authDomain: "mikutano-d2421.firebaseapp.com",
+  projectId: "mikutano-d2421",
+  storageBucket: "mikutano-d2421.appspot.com",
+  messagingSenderId: "602911919949",
+  appId: "1:602911919949:web:f0b481028d6eedaa037104",
+  measurementId: "G-CY3YN6WSCN"
+});
 
 const auth = firebase.auth();
 const firestore = firebase.firestore();
